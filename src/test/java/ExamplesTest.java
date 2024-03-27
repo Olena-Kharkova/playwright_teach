@@ -25,7 +25,7 @@ public class ExamplesTest extends BasePlayWrightTest {
         //Проверяем, что после заполнения формы, появился другой блок
         Assert.assertTrue(page.isVisible("[id=output]"));
         //Проверяем, что в появившемся блоке, текст содержит предыдущий текст
-        Assert.assertTrue(page.locator("[id=name]").textContent().contains("ThreadQA Test"));
+        Assert.assertTrue(page.locator("[id=name]").textContent().contains("NOTTTT ThreadQA Test"));
     }
 
     @Ignore
