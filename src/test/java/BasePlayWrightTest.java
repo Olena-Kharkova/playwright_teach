@@ -12,22 +12,24 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.UUID;
 
-public class BasePlyWrightTest {
+public class BasePlayWrightTest {
     private Browser browser;
     protected Page page;
     private BrowserContext context;
     private Boolean isTraceEnabled = true;
+    private Boolean isHeadlessEnabled = false;
 
     /**
      * Инициализация браузера и его настроек перед запуском всех тестов в классе
      */
     @BeforeClass
     public void setUp() {
+        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = true;
         //инициализация браузера с настройками
-        browser = Playwright
+     browser = Playwright
                 .create()
                 .chromium()
-                .launch(new BrowserType.LaunchOptions().setHeadless(false).setChannel("chrome"));
+                .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));
 
         //создаем контекст для браузера
         context = browser.newContext();
