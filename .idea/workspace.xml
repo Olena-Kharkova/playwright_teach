@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="bad test">
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add allure">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,13 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711556854416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add allure">
+      <created>1711557589185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711557589185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add actions" />
     <MESSAGE value="headless true" />
     <MESSAGE value="bad test" />
-    <option name="LAST_COMMIT_MESSAGE" value="bad test" />
+    <MESSAGE value="add allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure" />
   </component>
 </project>
