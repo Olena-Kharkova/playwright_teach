@@ -29,7 +29,7 @@ public class BasePlayWrightTest {
      browser = Playwright
                 .create()
                 .chromium()
-                .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));
+                .launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("chrome"));
 
         //создаем контекст для браузера
         context = browser.newContext();
