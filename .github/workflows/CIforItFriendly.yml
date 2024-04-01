@@ -46,7 +46,7 @@ jobs:
         
 
     - name: PlayWright report
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v3
       if: ${{ always() }}
       with:
         name: report
