@@ -36,17 +36,21 @@ jobs:
       if: always()
       run: |
         ls -a
-        md report
-        cp  target/*.zip report
-        cd report
+        mkdir reportPW
+        cp  target/*.zip reportPW/
+        cd reportPW
         ls -a
+        unzip -u  *.zip
+        rm *.zip
+        
 
     - name: PlayWright report
       uses: actions/upload-artifact@v4
       if: ${{ always() }}
       with:
         name: report
-        path: target/*.zip
+        path: reportPW
+     #   path: target/*.zip
 
 
     - name: Get history
