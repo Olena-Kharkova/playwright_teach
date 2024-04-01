@@ -32,27 +32,27 @@ jobs:
     - name: Maven test
       run: mvn test
 
-    - name: make magic
-      if: always()
-      run: |
-        ls -a
-        mkdir reportPW
-        cp  target/*.zip reportPW/
-        cd reportPW
-        pwd
-        ls -a
-        unzip -u  *.zip
-        rm *.zip
-        
+# TODO файл репорт надо скопировать в папку и оттуда приаттачить в action
+#    - name: make magic
+#      if: always()
+#      run: |
+#        ls -a
+#        mkdir reportPW
+#        cp  target/*.zip reportPW/
+#        cd reportPW
+#        pwd
+#        ls -a
+#        unzip -u  *.zip
+#        rm *.zip
+
 
     - name: PlayWright report
       uses: actions/upload-artifact@v3
       if: ${{ always() }}
       with:
         name: report
-        path: reportPW
-     #   path: target/*.zip
-
+        path: target/*.zip
+      #  path: reportPW
 
     - name: Get history
       uses: actions/checkout@v3

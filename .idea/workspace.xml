@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add scenario action pwreportv2">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add scenario action pwreportv3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711980284108</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add scenario action pwreportv3">
+      <created>1711980609376</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711980609376</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add scenario action pwreportv3">
+      <created>1711980710406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711980710406</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,6 +262,7 @@
     <MESSAGE value="add dir reportv3" />
     <MESSAGE value="add scenario action pwreport" />
     <MESSAGE value="add scenario action pwreportv2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scenario action pwreportv2" />
+    <MESSAGE value="add scenario action pwreportv3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scenario action pwreportv3" />
   </component>
 </project>
