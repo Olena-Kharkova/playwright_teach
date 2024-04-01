@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Mon Apr 01 13:59:28 GMT 2024","Mon Apr 01 13:59:28 GMT 2024","0","Command line suite","Command line test","ExamplesTest","ExamplesTest","fillManyTextBoxes","fillManyTextBoxes",""
+"passed","Mon Apr 01 13:59:29 GMT 2024","Mon Apr 01 13:59:32 GMT 2024","2854","Command line suite","Command line test","ExamplesTest","ExamplesTest","textBoxFillTest","textBoxFillTest",""
+"unknown","Mon Apr 01 13:59:28 GMT 2024","Mon Apr 01 13:59:28 GMT 2024","0","Command line suite","Command line test","ExamplesTest","ExamplesTest","sliderTest","sliderTest",""
+"unknown","Mon Apr 01 13:59:28 GMT 2024","Mon Apr 01 13:59:28 GMT 2024","0","Command line suite","Command line test","ExamplesTest","ExamplesTest","networkTest","networkTest",""
+"unknown","Mon Apr 01 13:59:28 GMT 2024","Mon Apr 01 13:59:28 GMT 2024","1","Command line suite","Command line test","ExamplesTest","ExamplesTest","alertTest","alertTest",""
