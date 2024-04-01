@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add allure">
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add dir reportv2">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExamplesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711566121610</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add dir report">
+      <created>1711978503275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711978503275</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add dir reportv2">
+      <created>1711979027465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711979027465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,6 +226,8 @@
     <MESSAGE value="headless true" />
     <MESSAGE value="bad test" />
     <MESSAGE value="add allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add allure" />
+    <MESSAGE value="add dir report" />
+    <MESSAGE value="add dir reportv2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dir reportv2" />
   </component>
 </project>

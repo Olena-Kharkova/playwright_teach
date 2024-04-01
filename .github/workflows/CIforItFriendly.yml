@@ -33,6 +33,7 @@ jobs:
       run: mvn test
 
     - name: make magic
+      if: always()
       run: |
         ls -a
         md report
