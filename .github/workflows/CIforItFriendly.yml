@@ -33,12 +33,18 @@ jobs:
       run: mvn test
 
 
-    - name: Attach screenshots and reports Chrome
+    - name: PlayWright report
       uses: actions/upload-artifact@v4
       if: ${{ always() }}
       with:
-        name: screenshots-and-report
-        path: target
+        name: report
+        run: | 
+              ls -a
+              md report
+              cp  target/*.zip report
+              cd report
+              ls -a
+        path: target/*.zip
 
 
     - name: Get history
