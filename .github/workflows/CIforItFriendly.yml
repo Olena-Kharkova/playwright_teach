@@ -32,18 +32,19 @@ jobs:
     - name: Maven test
       run: mvn test
 
+    - name: make magic
+      run: |
+        ls -a
+        md report
+        cp  target/*.zip report
+        cd report
+        ls -a
 
     - name: PlayWright report
       uses: actions/upload-artifact@v4
       if: ${{ always() }}
       with:
         name: report
-        run: | 
-              ls -a
-              md report
-              cp  target/*.zip report
-              cd report
-              ls -a
         path: target/*.zip
 
 
