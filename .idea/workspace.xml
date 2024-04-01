@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add dir reportv3" />
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add scenario action pwreport" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711979328816</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add scenario action pwreport">
+      <created>1711979877062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711979877062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +239,7 @@
     <MESSAGE value="add dir report" />
     <MESSAGE value="add dir reportv2" />
     <MESSAGE value="add dir reportv3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dir reportv3" />
+    <MESSAGE value="add scenario action pwreport" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scenario action pwreport" />
   </component>
 </project>
