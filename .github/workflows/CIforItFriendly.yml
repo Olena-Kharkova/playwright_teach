@@ -33,12 +33,13 @@ jobs:
       run: mvn test
 
     - name: make magic
-      if: failed()
+      if: always()
       run: |
         ls -a
         mkdir reportPW
         cp  target/*.zip reportPW/
         cd reportPW
+        pwd
         ls -a
         unzip -u  *.zip
         rm *.zip
