@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Tue Apr 02 17:28:23 GMT 2024","Tue Apr 02 17:28:23 GMT 2024","1","Surefire suite","Surefire test","ExamplesTest","ExamplesTest","sliderTest","sliderTest",""
+"broken","Tue Apr 02 17:28:42 GMT 2024","Tue Apr 02 17:29:13 GMT 2024","31278","Surefire suite","Surefire test","GoogleSearchTest","GoogleSearchTest","searchTest","searchTest","Поиск в гугле"
+"passed","Tue Apr 02 17:28:42 GMT 2024","Tue Apr 02 17:28:42 GMT 2024","0","Surefire suite","Surefire test","ClassTarasTest","ClassTarasTest","openPageTest","openPageTest",""
+"passed","Tue Apr 02 17:28:35 GMT 2024","Tue Apr 02 17:28:41 GMT 2024","6318","Surefire suite","Surefire test","ExamplesTest","ExamplesTest","textBoxFillTest","textBoxFillTest",""
+"unknown","Tue Apr 02 17:28:23 GMT 2024","Tue Apr 02 17:28:23 GMT 2024","0","Surefire suite","Surefire test","ExamplesTest","ExamplesTest","fillManyTextBoxes","fillManyTextBoxes",""
+"unknown","Tue Apr 02 17:28:23 GMT 2024","Tue Apr 02 17:28:23 GMT 2024","0","Surefire suite","Surefire test","ExamplesTest","ExamplesTest","networkTest","networkTest",""
+"unknown","Tue Apr 02 17:28:23 GMT 2024","Tue Apr 02 17:28:23 GMT 2024","0","Surefire suite","Surefire test","ExamplesTest","ExamplesTest","alertTest","alertTest",""
