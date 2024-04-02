@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add test + add allure body">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add test + add allure body&#10;setheadless = true">
       <change beforePath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="C:\!Teach\playwright_teach" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearchTest.searchTest">
+  <component name="RunManager" selected="Maven.playwright_teach [test]">
     <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -166,8 +166,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="Maven.playwright_teach [test]" />
+        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="TestNG.ExamplesTest" />
         <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
         <item itemvalue="TestNG.ExamplesTest.networkTest" />
@@ -281,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712055349326</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add test + add allure body&#10;setheadless = true">
+      <created>1712057182383</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712057182383</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add test + add allure body&#10;setheadless = true">
+      <created>1712057328698</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712057328698</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,6 +311,7 @@
     <MESSAGE value="add scenario action pwreportv3" />
     <MESSAGE value="done" />
     <MESSAGE value="add test + add allure body" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test + add allure body" />
+    <MESSAGE value="add test + add allure body&#10;setheadless = true" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test + add allure body&#10;setheadless = true" />
   </component>
 </project>
