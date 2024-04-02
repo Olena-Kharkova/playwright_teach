@@ -1,5 +1,6 @@
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Locator;
+import io.qameta.allure.Step;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
@@ -12,10 +13,11 @@ public class ExamplesTest extends BasePlayWrightTest {
 
 
 
+    @Step ("Example")
     @Test
     public void textBoxFillTest() {
         page.navigate("http://85.192.34.140:8081/");
-       page.getByText("Elements").click();
+        page.getByText("Elements").click();
         page.querySelector("//li[@id='item-0']/span[1]").click();
         page.fill("[id=userName]", "ThreadQA Test");
         page.fill("[id=userEmail]", "threadqa@gmail.com");

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add scenario action pwreportv3" />
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExamplesTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +41,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
+    <option name="proportion" value="0.23254536" />
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
@@ -60,7 +68,7 @@
       <recent name="C:\!Teach\playwright_teach" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.playwright_teach [test]">
+  <component name="RunManager" selected="TestNG.GoogleSearchTest.searchTest">
     <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -130,6 +138,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleSearchTest.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="playwright_teach" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="e2e" type="UUVRunConfiguration" factoryName="UUVRunConfiguration">
       <option name="projectHomeDir" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -141,6 +161,7 @@
     </configuration>
     <list>
       <item itemvalue="Maven.playwright_teach [test]" />
+      <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
       <item itemvalue="TestNG.ExamplesTest" />
       <item itemvalue="TestNG.ExamplesTest.networkTest" />
       <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
@@ -149,6 +170,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="Maven.playwright_teach [test]" />
         <item itemvalue="TestNG.ExamplesTest" />
         <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
@@ -249,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711980710406</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="done">
+      <created>1711982133347</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711982133347</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,6 +292,7 @@
     <MESSAGE value="add scenario action pwreport" />
     <MESSAGE value="add scenario action pwreportv2" />
     <MESSAGE value="add scenario action pwreportv3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scenario action pwreportv3" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

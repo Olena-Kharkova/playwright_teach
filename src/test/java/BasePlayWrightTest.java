@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Random;
 import java.util.UUID;
 
 public class BasePlayWrightTest {
@@ -24,12 +25,12 @@ public class BasePlayWrightTest {
      */
     @BeforeClass
     public void setUp() {
-        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = true;
+        if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
         //инициализация браузера с настройками
      browser = Playwright
                 .create()
                 .chromium()
-                .launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("chrome"));
+                .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));
 
         //создаем контекст для браузера
         context = browser.newContext();
@@ -64,23 +65,24 @@ public class BasePlayWrightTest {
      */
     @AfterMethod
     public void attachFilesToFailedTest(ITestResult result) throws IOException {
+        String uuid = UUID.randomUUID().toString();
+        String randomStr = String.valueOf(new Random().nextInt(100));
         if (!result.isSuccess()) {
-            String uuid = UUID.randomUUID().toString();
             byte[] screenshot = page.screenshot(new Page.ScreenshotOptions()
                     .setPath(Paths.get("target/allure-results/screenshot_" + uuid + "screenshot.png"))
                     .setFullPage(true));
 
             Allure.addAttachment(uuid, new ByteArrayInputStream(screenshot));
             Allure.addAttachment("source.html", "text/html", page.content());
-
-            if (isTraceEnabled) {
-                String traceFileName = String.format("target/%s_trace.zip", uuid);
-                Path tracePath = Paths.get(traceFileName);
-                context.tracing()
-                        .stop(new Tracing.StopOptions()
-                                .setPath(tracePath));
-                Allure.addAttachment("trace.zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)));
-            }
+        }
+        if (isTraceEnabled) {
+            String traceFileName = String.format("target/%s_trace.zip", randomStr);
+            Path tracePath = Paths.get(traceFileName);
+            context.tracing()
+                    .stop(new Tracing.StopOptions()
+                            .setPath(tracePath));
+            Allure.addAttachment("traceForPlayWright.zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)));
+            Allure.addAttachment("Link","https://trace.playwright.dev/");
         }
     }
 }
