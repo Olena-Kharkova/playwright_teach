@@ -38,8 +38,7 @@ public class BasePlayWrightTest {
 
         //создаем контекст для браузера
         context = browser.newContext(new Browser.NewContextOptions()
-                .setLocale("ua-UA")
-                .setTimezoneId("Europe/Kyiv"));
+                .setLocale("ua-UA"));
 
         //трейсинг замедляет скорость заполнение полей
         if(isTraceEnabled){
