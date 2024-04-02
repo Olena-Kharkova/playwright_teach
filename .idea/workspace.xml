@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="Kyiv">
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="Kyiv UA!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712081064639</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Kyiv UA!">
+      <created>1712081548905</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712081548905</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -350,6 +355,7 @@
     <MESSAGE value="lets go - asserts" />
     <MESSAGE value="lets go - asserts v2" />
     <MESSAGE value="Kyiv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kyiv" />
+    <MESSAGE value="Kyiv UA!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kyiv UA!" />
   </component>
 </project>
