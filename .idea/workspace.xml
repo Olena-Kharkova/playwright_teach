@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="add test + add allure body&#10;setheadless = true">
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="solving ...">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassTarasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasePlayWrightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
     </list>
@@ -64,7 +66,7 @@
       <recent name="C:\!Teach\playwright_teach" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.playwright_teach [test]">
+  <component name="RunManager" selected="TestNG.GoogleSearchTest">
     <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -110,11 +112,11 @@
       <listeners />
       <method v="2" />
     </configuration>
-    <configuration name="ExamplesTest.networkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamplesTest.textBoxFillTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="METHOD_NAME" value="networkTest" />
+      <option name="METHOD_NAME" value="textBoxFillTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,12 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamplesTest.textBoxFillTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="playwright_teach" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesTest" />
-      <option name="METHOD_NAME" value="textBoxFillTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,20 +158,20 @@
     </configuration>
     <list>
       <item itemvalue="Maven.playwright_teach [test]" />
+      <item itemvalue="TestNG.GoogleSearchTest" />
       <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
       <item itemvalue="TestNG.ExamplesTest" />
-      <item itemvalue="TestNG.ExamplesTest.networkTest" />
       <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
       <item itemvalue="UUV.e2e" />
       <item itemvalue="UUV.open" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GoogleSearchTest" />
         <item itemvalue="Maven.playwright_teach [test]" />
         <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="TestNG.ExamplesTest" />
         <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
-        <item itemvalue="TestNG.ExamplesTest.networkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712057328698</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="solving ...">
+      <created>1712070502434</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712070502434</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,6 +320,7 @@
     <MESSAGE value="done" />
     <MESSAGE value="add test + add allure body" />
     <MESSAGE value="add test + add allure body&#10;setheadless = true" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test + add allure body&#10;setheadless = true" />
+    <MESSAGE value="solving ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="solving ..." />
   </component>
 </project>

@@ -18,19 +18,23 @@ public class BasePlayWrightTest {
     protected Page page;
     private BrowserContext context;
     private Boolean isTraceEnabled = true;
-    private Boolean isHeadlessEnabled = false;
+    private Boolean isHeadlessEnabled = true;
 
     /**
      * Инициализация браузера и его настроек перед запуском всех тестов в классе
      */
     @BeforeClass
     public void setUp() {
+
+        System.out.println(isHeadlessEnabled + " clear boolen");
         if (System.getProperty("os.name").toLowerCase().contains("windows")) isHeadlessEnabled = false;
+        System.out.println(System.getProperty("os.name"));
+
         //инициализация браузера с настройками
      browser = Playwright
                 .create()
                 .chromium()
-                .launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("chrome"));
+                .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));
 
         //создаем контекст для браузера
         context = browser.newContext();

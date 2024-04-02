@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-@Ignore
+
 public class GoogleSearchTest extends BasePlayWrightTest{
 
 
     @Step ("Open page and search")
     public void openBrowser(){
-        page.navigate("https://www.google.com/");
+        page.navigate("https://www.google.com.ua");
         assertThat(page.getByLabel("Пошук", new Page.GetByLabelOptions().setExact(true))).isVisible();
     }
 
