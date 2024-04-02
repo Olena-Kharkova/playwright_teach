@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="lets go - asserts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="lets go - asserts v2">
       <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712078801927</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="lets go - asserts v2">
+      <created>1712080569530</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712080569530</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,6 +341,7 @@
     <MESSAGE value="solving ..." />
     <MESSAGE value="lets go" />
     <MESSAGE value="lets go - asserts" />
-    <option name="LAST_COMMIT_MESSAGE" value="lets go - asserts" />
+    <MESSAGE value="lets go - asserts v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lets go - asserts v2" />
   </component>
 </project>

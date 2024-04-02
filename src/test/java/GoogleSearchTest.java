@@ -35,6 +35,6 @@ public class GoogleSearchTest extends BasePlayWrightTest{
         assertThat(page.locator("#center_col")).containsText("google");
 
        // page.wait(500);
-      //  Assert.assertEquals(page.locator('#result-stats").contains,"Приблизна"));
+       Assert.assertTrue(page.locator("#result-stats").textContent().contains("Приблизна"));
     }
 }

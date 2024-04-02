@@ -37,7 +37,9 @@ public class BasePlayWrightTest {
                 .launch(new BrowserType.LaunchOptions().setHeadless(isHeadlessEnabled).setChannel("chrome"));
 
         //создаем контекст для браузера
-        context = browser.newContext();
+        context = browser.newContext(new Browser.NewContextOptions()
+                .setLocale("ua-UA")
+                .setTimezoneId("Europe/Kyiv"));
 
         //трейсинг замедляет скорость заполнение полей
         if(isTraceEnabled){
