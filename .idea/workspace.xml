@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="lets go">
+    <list default="true" id="b4d2d34d-adb3-49de-b9b8-f3f3355b89dc" name="Changes" comment="lets go - asserts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <recent name="C:\!Teach\playwright_teach" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearchTest">
+  <component name="RunManager" selected="TestNG.GoogleSearchTest.searchTest">
     <configuration name="playwright_teach [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -165,9 +165,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="TestNG.GoogleSearchTest" />
         <item itemvalue="Maven.playwright_teach [test]" />
-        <item itemvalue="TestNG.GoogleSearchTest.searchTest" />
         <item itemvalue="TestNG.ExamplesTest" />
         <item itemvalue="TestNG.ExamplesTest.textBoxFillTest" />
       </list>
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712077797318</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lets go - asserts">
+      <created>1712078801927</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712078801927</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,17 +334,7 @@
     <MESSAGE value="add test + add allure body&#10;setheadless = true" />
     <MESSAGE value="solving ..." />
     <MESSAGE value="lets go" />
-    <option name="LAST_COMMIT_MESSAGE" value="lets go" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/GoogleSearchTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="lets go - asserts" />
+    <option name="LAST_COMMIT_MESSAGE" value="lets go - asserts" />
   </component>
 </project>
